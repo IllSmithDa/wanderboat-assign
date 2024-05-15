@@ -1,0 +1,60 @@
+.cal-comp-container {
+  background-color: #F5FAFF;
+  border-radius: 20px;
+  width: 400px;
+}
+/* zoon effect on hover */
+.cal-comp-container:hover{
+  zoom: 1.1;
+}
+
+.calendar-container {
+  height: 520px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
+  width: 100%;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+/* invisible scroll bar for chrome, safari, opera */
+.calendar-container::-webkit-scrollbar {
+  display: none;
+}
+
+.days-table, tr, .calendar-container table{
+  width: 100%;
+}
+
+tr th:first-child, tr td:first-child{
+  color: #DD1111;
+}
+th {
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+  width: 60px;
+}
+td {
+  padding: 10px;
+}
+
+
+span, td, th {
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+/* Sticky sub header */
+.calendar-header {
+  background-color: #E9EFF4;
+  top: 0;
+  position: sticky;
+  text-align: start;
+  padding: 5px;
+}
+.calendar-header span {
+  box-sizing: border-box;
+  font-weight: 600;
+}
+
