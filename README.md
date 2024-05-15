@@ -1,3 +1,13 @@
+##### TO RUN ######
+
+1. clone the project
+
+2. 'npm i ' to install react dependencies 
+
+3. 'npm run dev' to start up application
+
+
+
 #####   PLAN FOR APP ####
 
 1. Start by hard coding everything
