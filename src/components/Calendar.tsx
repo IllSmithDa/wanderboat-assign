@@ -88,7 +88,7 @@ export default function Calendar() {
               <>
                 {/* Month header with stick pos */}
                 <div className='calendar-header'>
-                  <span role='header'>{month.month} {month.year}</span>
+                  <h3>{month.month} {month.year}</h3>
                 </div>
                 {/* process each months and days within each month into a table */}
                 <table>
